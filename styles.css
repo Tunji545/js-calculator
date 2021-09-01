@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  font-size: 2.4rem;
+  font-weight: 300px;
+  background-color: darkgrey;
+}
+div.container {
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+  background-color: #333;
+  color: floralwhite;
+}
+form textarea {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #333;
+  border: none;
+  color: floralwhite;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: right;
+  align-self: flex-end;
+  font-size: 2.4rem;
+}
+.btn-collection-1 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #555;
+}
+.btn,
+.operator {
+  width: 25%;
+  height: 100px;
+  border: 1px solid #222;
+  text-align: center;
+  line-height: 100px;
+}
+.btn1,
+.btn2,
+.btn3 {
+  background-color: #444;
+}
+.btn4,
+.btn8,
+.btn12,
+.btn16,
+.btn18 {
+  background-color: orange;
+}
+.btn-collection-2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.btn-collection-2 .btn0 {
+  width: 50%;
+  height: 100px;
+  background-color: #555;
+  border: 1px solid #222;
+  text-align: center;
+  line-height: 100px;
+}
+.btn-collection-2 .btn:not(.btn0) {
+  width: 25%;
+}
+.btn-collection-2 .btn17 {
+  background-color: #555;
+}
